@@ -1,0 +1,54 @@
+<DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="="UTF-8>
+		<link rel="stylesheet" type="text/css" href="./results.css">
+	</head>
+	<body>
+		<div id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="sports.html">Home</a></li>
+				<li><a href="timeline.html">Timeline</a></li>
+				<li><a href="iplResults.html">Ipl Results</a></li>
+			</ul>
+		</div>
+	</div>
+		<div class="regform">
+		<h1>Ipl Results</h1></div>
+		<div class="main">
+			<form id="datavalue">
+				<h3 style="color:white"> <span id ="result1"></span><br></h3>
+				<h3 style="color:white"> <span id ="result2"></span><br></h3>
+				<h3 style="color:white"> <span id ="result3"></span><br></h3>
+				<h3 style="color:white"> <span id ="result4"></span><br></h3>
+				<h3 style="color:white"> <span id ="result5"></span><br></h3>
+				<h3 style="color:white"> <span id ="result6"></span><br></h3>
+
+       <p>
+					<select id="year">
+						<option value="year" selected="year" disabled select ="year">Year</option>
+						<option>2016</option>
+						<option>2017</option>
+						<option>2018</option>
+						<option>2019</option>
+						<option>2020</option>
+						<option>2021</option>
+					</select>
+					<br>
+					<br>
+
+					<br>
+					
+					<input id="submit" type="submit"></input>
+
+				</p>
+				firebase.initializeApp(firebaseConfig);  document.getElementById('datavalue').addEventListener('submit', submitForm);
+
+				<script type="text/javascript"></script>
+				<script src="scriptIplResults.js"></script>
+			</form>
+		</div>
+		</body>
+		</html>
+	</DOCTYPE>
